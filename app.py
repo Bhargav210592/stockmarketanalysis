@@ -24,10 +24,10 @@ warnings.filterwarnings('ignore')
 load_dotenv()
 
 # Configuration
-OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
+OPENROUTER_API_KEY = "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"
 GMAIL_EMAIL = os.getenv("GMAIL_EMAIL")
 GMAIL_APP_PASSWORD = os.getenv("GMAIL_APP_PASSWORD")
-NEWSAPI_KEY = os.getenv("NEWSAPI_KEY")
+NEWSAPI_KEY = "6cb55f32ee1a45bdbd625b3199605e0a"
 
 # Comprehensive Indian Stock Index and Individual Stock Mapping
 STOCK_CATEGORIES = {
